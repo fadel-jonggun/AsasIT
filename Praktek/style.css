@@ -1,0 +1,61 @@
+body {
+  backdrop-filter: blur(10000);
+  background-color: #c0c0c0;
+  font-family: "Poppins", sans-serif;
+}
+
+.bungkus {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+}
+.card {
+  margin-top: 30px;
+  background-color: #454545;
+  height: 550px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.gambar {
+  padding: 20px;
+  border-radius: 100px;
+}
+.hasatu {
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+}
+.hadua {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  color: #007bff;
+}
+.e {
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #c0c0c0;
+  margin-left: 26px;
+  margin-right: 26px;
+  font-size: 16px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+button {
+  background-color: #007bff;
+  padding: 15px 50px 15px 50px;
+  color: white;
+  border-radius: 10px;
+}
